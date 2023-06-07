@@ -9,4 +9,5 @@ class Settins():
     APP_VERSION:str = os.getenv("APP_VERSION")
     APP_HOST:str = os.getenv("APP_HOST")
     APP_PORT:int = os.getenv("APP_PORT")
+    APP_MORALIS_KEY:str = os.getenv("APP_MORALIS_KEY")
 settings  = Settins()
